@@ -1,4 +1,27 @@
 body{
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color:hsl(270, 9%, 17%);
+}
+
+.Nav_list ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header_{
+    display: grid;
+    grid-template-columns: 2pc 1fr;
 }
