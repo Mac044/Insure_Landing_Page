@@ -31,3 +31,45 @@ body{
     font-size: 40px;
     font-weight: 400;
 }
+
+.header_2{
+    margin-top: 200px;
+}
+
+.header_2   .Advantages_{
+    display: flex;
+}
+
+
+.radius{
+   border-width: 2px;
+   border-style: solid;
+}
+
+.About_us{
+    display: flex;
+    align-items: center;
+    margin-left: 320px;
+    gap: 7rem;
+    margin-top: 20px;
+}
+
+
+.logo22{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.Main5{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+}
+
