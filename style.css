@@ -39,6 +39,7 @@ body{
 .header_line button{
     color: white;
     border-color: white;
+    border-style: solid;
 }
 
 .header_ h1{
@@ -97,6 +98,7 @@ button{
     outline: none;
     position: absolute;
     margin-left: 850px;
+    border-style: solid;
 }
 
 
