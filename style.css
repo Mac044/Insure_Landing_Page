@@ -256,6 +256,7 @@ button{
 
     .Nav_list img{
       padding: 15px;
+      font-size: 500px;
     }
 
    .Nav_list ul{
@@ -312,11 +313,36 @@ button{
 .header_2 img{
     width: 200px;
     height: 200px;
+    margin-left: 300px;
 }
 
 .header_2 .ptag{
     margin-left: 100px;
-    width: 1150px;
+    width: 1100px;
+    text-align: center;
+}
+
+.header_2 h3{
+    margin-left: 300px;
+
+}
+
+.Main5 {
+    flex-direction: column;
+    font-size: 60px;
+    margin-left: 400px;
+    text-align: center;
+    width: 500px;
+}
+
+.Main5 .head_nav {
+    font-size: 60px;
+}
+
+.logo22 {
+    display: flex;
+   flex-direction: column;
+   font-size: 200px;
 }
 
 
