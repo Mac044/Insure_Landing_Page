@@ -242,32 +242,9 @@ button{
 /* Iphones or normal phones 0px - 600px */
 @media only screen and (max-width: 600px) {
     body{
-      padding: 100px;
       align-items: center;
     }
 
-    .header_{
-        background-color: hsl(256, 26%, 20%);
-        display: flex;
-        flex-direction: column;
-        color: white;
-        margin-top: 600px;
-    }
-
-    .Nav_list img{
-      padding: 15px;
-      font-size: 500px;
-    }
-
-   .Nav_list ul{
-    display: none;
-   }
-
-   .header_ .img__ {
-    margin-bottom: 500px;
-    width: 500px;
-    height: 560px;
-}
 
 .header_2   .Advantages_ {
     font-size: 60px;
@@ -286,6 +263,7 @@ button{
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 400px 1100px;
+    margin-left: 150px;
 }
 
 .About_us h1 {
@@ -327,10 +305,16 @@ button{
 
 }
 
+.header_2 h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-left: 350px;
+}
+
 .Main5 {
     flex-direction: column;
     font-size: 60px;
-    margin-left: 400px;
+    margin-left: 500px;
     text-align: center;
     width: 500px;
 }
@@ -342,8 +326,83 @@ button{
 .logo22 {
     display: flex;
    flex-direction: column;
-   font-size: 200px;
+   font-size: 400px;
 }
 
 
+.header_ .img__ {
+    display: none;
+}
+
+.div_line .line4 {
+    height: 5px;
+    width: 2000px;
+}
+
+.header_2 {
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.main55 .pattern {
+   width: 1600px;
+   height: 550px;
+   margin-bottom: 500px;
+}
+
+.main55 {
+    width: 2000px;
+    height: 2400px;
+}
+
+   .Nav_list ul{
+    display: none;
+   }
+
+    .header_{
+        background-color: hsl(256, 26%, 20%);
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 1590px;
+        height: 1100px;
+    }
+
+    .header_ h1 {
+        font-size: 150px;
+        width: 1000px;
+        font-weight: 400;
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .header_ p {
+        font-size: 42px;
+        width: 750px;
+        margin-left: 300px;
+       text-align: center;
+    }
+
+    .header_line button {
+        font-size: 60px;
+        margin-bottom: 70px;
+        margin-left: 450px;
+        margin-bottom: 200px;
+        padding: 10px 50px;
+    }
+
+    .header_2 .line {
+        height: 5px;
+        width: 600px;
+        margin-left: 450px;
+        background-color: hsl(270, 9%, 17%);
+    }
+
+    .header_  .line {
+        background-color: transparent;
+    }
+
+    .Nav_list img{
+      padding: 15px;
+      font-size: 500px;
+    }
 }
