@@ -269,6 +269,7 @@ button{
 }
 
 .header_2   .Advantages_ {
+    font-size: 60px;
     flex-direction: column;
     margin: auto;
     text-align: center;
@@ -308,9 +309,15 @@ button{
     display: none;
 }
 
+.header_2 img{
+    width: 200px;
+    height: 200px;
+}
 
-
-
+.header_2 .ptag{
+    margin-left: 100px;
+    width: 1150px;
+}
 
 
 }
