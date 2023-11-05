@@ -11,6 +11,18 @@ body{
     margin: auto;
 }
 
+.Nav_list .act :hover{
+    color:hsl(270, 9%, 17%);
+}
+
+.Nav_list .Nav_img2{
+    display: none;
+}
+
+.Nav_img4{
+   display: none;
+}
+
 .logo{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
@@ -35,6 +47,11 @@ body{
     color: hsl(270, 9%, 17%);
 }
 
+.Nav_list button:hover{
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+}
+
 .header_{
     background-color: hsl(256, 26%, 20%);
     display: flex;
@@ -54,6 +71,11 @@ body{
     border-color: white;
     border-style: solid;
     margin-bottom: 70px;
+}
+
+.header_line button:hover{
+    background-color: white;
+    color: hsl(270, 9%, 17%);
 }
 
 .header_ h1{
@@ -122,6 +144,13 @@ button{
     margin-left: 864px;
     border-style: solid;
 }
+
+.About_us button:hover{
+   background-color: white;
+   color: hsl(270, 9%, 17%);
+}
+
+
 
 
 .header_2{
@@ -213,6 +242,10 @@ button{
     position: absolute;
     height: 190px;
     width: 500px;
+}
+
+.main55 .hello :hover{
+    color: black;
 }
 
 .div_line .line4 {
@@ -326,7 +359,12 @@ button{
 .logo22 {
     display: flex;
    flex-direction: column;
-   font-size: 400px;
+   gap: 3rem;
+}
+
+.logo22 img{
+    width: 100px;
+   margin-bottom: 50px;
 }
 
 
@@ -401,8 +439,38 @@ button{
         background-color: transparent;
     }
 
-    .Nav_list img{
-      padding: 15px;
-      font-size: 500px;
+    .header_  .img__2 {
+        margin-top: 380px;
+        width: 190px;
+        height: 350px;
     }
+
+    .header_  .img__2 {
+        display: none;
+    }
+
+    .Nav_list img{
+      padding: 50px;
+      width: 200px;
+      height: 70px;
+    }
+
+    .header_ .imagee__ {
+       display: none;
+    }
+
+
+    .Nav_list .Nav_img2{
+        display: inline;
+        width: 100px;
+        height: 100px;
+        margin-left: 1100px;
+
+    }
+
+    .Nav_img4{
+        display: inline;
+        width: 1590px;
+    }
+
 }
