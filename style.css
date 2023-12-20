@@ -9,6 +9,14 @@ body{
     justify-content: space-between;
     width: 1100px;
     margin: auto;
+    position: relative;
+}
+
+.Nav_list .bx-menu{
+    font-size: 50px;
+    display: none;
+    position: absolute;
+    margin-left: 1100px;
 }
 
 .Nav_list .act :hover{
@@ -20,7 +28,7 @@ body{
 }
 
 .Nav_img4{
-   display: none;
+  display: none;
 }
 
 .logo{
@@ -392,9 +400,6 @@ button{
     height: 2400px;
 }
 
-   .Nav_list ul{
-    display: none;
-   }
 
     .header_{
         background-color: hsl(256, 26%, 20%);
@@ -460,17 +465,41 @@ button{
     }
 
 
-    .Nav_list .Nav_img2{
+    /* .Nav_list .Nav_img2{
         display: inline;
         width: 100px;
         height: 100px;
         margin-left: 1100px;
 
+    } */
+
+    /* .Nav_img4{
+        background-image: url(./images/image-intro-mobile.jpg);
+    } */
+
+    .Nav_list .bx-menu{
+        font-size: 130px;
+        display: block;
+        margin-left: 1450px;
+        position: absolute;
     }
 
-    .Nav_img4{
-        display: inline;
-        width: 1590px;
-    }
+    .Nav_list ul{
+        font-size: 30px;
+        display: block;
+        position: relative;
+        margin-left: 1100px;
+        
+       }
 
+       /* .Nav_img4 {
+        background-image: url(./images/image-intro-mobile.jpg);
+    }
+     */
+
+
+
+
+
+   
 }
