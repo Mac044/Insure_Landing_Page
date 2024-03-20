@@ -23,20 +23,6 @@ body{
     color:hsl(270, 9%, 17%);
 }
 
-.Nav_list .Nav_img2{
-    display: none;
-}
-
-.Nav_img4{
-  display: none;
-}
-
-.logo{
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
-    color:hsl(270, 9%, 17%);
-}
-
 .Nav_list ul{
     font-family: 'Karla', sans-serif;
     list-style: none;
@@ -162,8 +148,6 @@ button{
    background-color: white;
    color: hsl(270, 9%, 17%);
 }
-
-
 
 
 .header_2{
@@ -372,13 +356,10 @@ button{
 
 .logo22 {
     display: flex;
-   flex-direction: column;
-   gap: 3rem;
-}
-
-.logo22 img{
-    width: 100px;
-   margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+  
 }
 
 
@@ -406,29 +387,27 @@ button{
     height: 2400px;
 }
 
-
-    .header_{
+.header_{
         position: relative;
         background-color: hsl(256, 26%, 20%);
         display: flex;
         flex-direction: column;
         color: white;
-       width: 1700px; 
+        width: 1700px; 
         height: 1100px;
         background-image: url(./images/bg-pattern-intro-left-mobile.svg);
         background-repeat: no-repeat;
         background-size: 1000px 500px;
     }
 
-    .header_ .image22{
-        display: block;
+.header_ .image22{
+        display: none;
         position: absolute;
 
-        z-index: -1;
         
     }   
 
-    .header_ h1 {
+.header_ h1 {
         font-size: 150px;
         width: 1000px;
         font-weight: 400;
@@ -436,14 +415,14 @@ button{
         text-align: center;
     }
 
-    .header_ p {
+.header_ p {
         font-size: 42px;
         width: 750px;
         margin-left: 300px;
        text-align: center;
     }
 
-    .header_line button {
+ .header_line button {
         font-size: 60px;
         margin-bottom: 70px;
         margin-left: 450px;
@@ -451,52 +430,47 @@ button{
         padding: 10px 50px;
     }
 
-    .header_2 .line {
+ .header_2 .line {
         height: 5px;
         width: 600px;
         margin-left: 450px;
         background-color: hsl(270, 9%, 17%);
     }
 
-    .header_  .line {
+ .header_  .line {
         background-color: transparent;
     }
 
-    .header_  .img__2 {
+ .header_  .img__2 {
         display: none;
     }
 
-    .Nav_list img{
+.Nav_list img{
       padding: 50px;
       width: 200px;
       height: 70px;
     }
 
-    .header_ .imagee__ {
+.header_ .imagee__ {
        display: none;
     }
 
-
-    /* .Nav_list .Nav_img2{
+.Nav_list .Nav_img2{
         display: inline;
         width: 100px;
         height: 100px;
         margin-left: 1100px;
 
-    } */
+    } 
 
-    /* .Nav_img4{
-        background-image: url(./images/image-intro-mobile.jpg);
-    } */
-
-    .Nav_list .bx-menu{
+.Nav_list .bx-menu{
         font-size: 130px;
         display: block;
         margin-left: 1450px;
         position: absolute;
     }
 
-    .Nav_list ul{
+.Nav_list ul{
         font-size: 30px;
         display: block;
         position: relative;
@@ -504,12 +478,14 @@ button{
         
        }
 
-       /* .Nav_img4 {
+    .Main_2 .Nav_img4{
+        height: 2100px;
+        width: 1700px;
         background-image: url(./images/image-intro-mobile.jpg);
-    }
-     */
-
-
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+      }
 
 
 
