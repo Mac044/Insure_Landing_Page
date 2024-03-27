@@ -356,10 +356,23 @@ button{
 
 .logo22 {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 5rem;
+    padding-right: 350px;
+    
   
+}
+
+.img_logo img{
+    width: 300px;
+    height: 100px;
+}
+
+.icon_ img{
+    padding: 10px;
+    gap: 5rem;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -487,7 +500,8 @@ button{
       
       }
 
-
-
-   
+.main55 img{
+    font-size: 1000px;
 }
+
+} 
