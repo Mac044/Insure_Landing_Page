@@ -269,11 +269,12 @@ button{
     background-color:hsl(0, 0%, 98%);
 }
 
+
+
 /* Iphones or normal phones 0px - 600px */
 @media only screen and (max-width: 600px) {
     body{
-      align-items: center;
-      overflow-x: hidden;
+        align-items: center;
     }
 
 
@@ -500,8 +501,30 @@ button{
       
       }
 
-.main55 img{
-    font-size: 1000px;
-}
-
 } 
+
+/* Tablets and ipads min 601px max 820px */
+@media only screen and (min-width: 601px) and (max-width: 880px) {
+    .header_ {
+        background-color: hsl(256, 26%, 20%);
+        height: 500px;
+        width: 1500px;
+    }
+
+    .header_ .imagee__ {
+        width: 400px;
+        height: 510px;
+        position: absolute;
+        margin-left: 1105px;
+        overflow: hidden;
+        clip: rect(65px,600px,800px,0px);
+    }
+
+    .header_2 {
+        margin-left: 140px;
+    }
+
+    .About_us {
+       margin-left: 140px;
+    }
+}
