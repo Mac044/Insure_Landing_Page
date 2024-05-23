@@ -1,43 +1,31 @@
 body{
-    font-size: 16px;
+    font-size: 16px ;
 }
 
-
-.Nav_list{
+/* nav section */
+.Nav_list {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 1100px;
-    margin: auto;
-    position: relative;
-}
-
-.Nav_list .bx-menu{
-    font-size: 50px;
-    display: none;
-    position: absolute;
-    margin-left: 1100px;
-}
-
-.Nav_list .act :hover{
-    color:hsl(270, 9%, 17%);
-}
-
-.Nav_list ul{
-    font-family: 'Karla', sans-serif;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
     align-items: center;
+    padding: 0% 10%;
 }
 
-.Nav_list li{
-    color: grey;
+.Nav_list .nav_li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Nav_list .toggle{
+    display: none;
 }
 
 .Nav_list button{
     border-color:hsl(270, 9%, 17%);
+    background-color: white;
     border-style: solid;
+    padding: 10px;
     color: hsl(270, 9%, 17%);
 }
 
@@ -46,187 +34,208 @@ body{
   color: white;
 }
 
-.header_{
-    background-color: hsl(256, 26%, 20%);
-    display: flex;
+
+/* header section */
+
+.Main_2 {
     color: white;
+    background-color: hsl(256, 26%, 20%);
     position: relative;
     height: 500px;
 }
 
-
-.header_  .header_line{
-    padding-top: 75px;
-    padding-left: 160px;
-    margin-bottom: 90px;
+.Main_2 .header_{
+    display: flex;
+    align-content: center;
 }
 
-.header_line button{
-    color: white;
-    border-color: white;
-    border-style: solid;
-    margin-bottom: 70px;
-}
+ .Main_2   .img2{
+    top: 0;
+    position: absolute;
+    height: 92%;
+    margin-left: 76%; 
+ }
 
-.header_line button:hover{
-    background-color: white;
-    color: hsl(270, 9%, 17%);
-}
+ .Main_2 .image22{
+    padding-top:5% ;
+    padding-right: 10%;
+ }
+
+ .header_{
+    position: relative;
+ }
+
 
 .header_ h1{
     font-size: 50px;
-    width: 350px;
     font-weight: 400;
-    position: relative;
+    width: 44%;
+    padding-left: 18%;
 }
 
-.header_  .img__2{
-    position: absolute;
-    margin-top: 380px;
-    width: 190px;
-    height: 350px;
+
+.header_  .line{
+    height: 2px;
+    width: 90px;
+    background-color:hsl(0, 0%, 98%);
+    margin-top: 11%;
+    margin-left: 18%;
 }
 
-.header_ .image22{
-    display: none;
+.header_ button{
+    background-color: inherit;
+    color: white;
+    border-color: white;
+    padding: 10px 30px;
+    border-style: solid;
+    margin-left: 18%;
+}
+
+.header_  button:hover{
+    color: hsl(270, 9%, 17%);
+    background-color: white;
 }
 
 .header_ p{
     font-family: 'Karla', sans-serif;
     font-size: 16px;
-    position: relative; 
-    width: 480px;
-    margin-bottom: 30px;
-    color: hsla(0, 0%, 98%, 0.815);
-}
-
-.header_ .img__{
-    position: absolute;
-    margin-left: 760px;
-    margin-top: 80px;
-    width: 500px;
-    height: 560px;
-}
-
-.header_ .imagee__{
-    top: -65px;
-    width: 400px;
-    height: 510px;
-    position: absolute;
-    margin-left: 1025px;
-    overflow:  hidden;
-    clip:rect(65px,600px,800px,0px)
-   
-}
-
-button{
-    background-color: transparent;
-    padding: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 13px;
-}
-
-.About_us h1{
-    font-size: 50px;
-    font-weight: 400;
-    width: 400px;
-    position: relative;
-}
-
-
-.About_us button{
-    border-color: white;
+    align-items: center;
+    font-weight: 300;
+    width: 70%;
     color: white;
-    outline: none;
+    padding-left: 18%;
+}
+
+.header_ .img3{
+    height: 60%;
+    margin-top: 25%;
     position: absolute;
-    margin-left: 864px;
-    border-style: solid;
-}
-
-.About_us button:hover{
-   background-color: white;
-   color: hsl(270, 9%, 17%);
 }
 
 
+
+/* About us */
 .header_2{
-    width: 1100px;
-    margin: auto;
-    margin-top: 200px;
+    padding: 20% 10%;
+}
+
+.header_2 .line{
+    height: 2px;
+    width: 110px;
+    margin-right: 450px;
+    margin-top: 19px;
+    background-color:rgba(0, 0, 0, 0.292);
+}
+
+.header_2 .Advantages_{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
 }
 
 .header_2 h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
 }
 
-.header_2   .Advantages_{
-    display: flex;
-    gap: 3rem;
-    font-family: 'Karla', sans-serif;
+/* contact us */
+
+.contact1{
+    padding: 0%  10%;
 }
 
-.header_2  .ptag{
-    color: hsl(273, 4%, 51%);
-    width: 350px;
-}
-
-.About_us{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-top: 100px;
-    margin-bottom: 200px;
+.contact_hd{
     background-color: hsl(256, 26%, 20%);
-    color: white;
-    height: 200px;
-    width: 1000px;
+    width: 100%;
     position: relative;
-    
+    height: 250px;
+    color: white;
 }
 
 
-.About_us img{
+.contact_hd img{
+    margin-left: 62%;
     position: absolute;
-    margin-left: 712px;
-    height: 200px;
+    top: 0;
+}
+
+.contact_hd h1{
+   font-size: 40px;
+   width: 32%;
+   margin-bottom: 10%;
+   position: relative;
+   margin-left: 10%;
    
 }
 
+.contact_hd button{
+    border-style: solid;
+    color: white;
+    border-color: white;
+    background-color: inherit;
+    margin-left: 80%;
+    position: absolute;
+    padding: 1% 2%;
+    top: 40%;
+}
+
+.contact_hd button:hover{
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+}
+
+.contact_h1_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* footer section */
+
+.main55{
+    background-color:  hsl(0, 0%, 98%);
+    position: relative;
+    margin-top: 10%;
+}
+
+
+.main55 .pattern{
+    position: absolute;
+    height: 190px;
+    width: 30%;
+}
 
 .logo22{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    align-items: center;
-    margin-bottom: 50px;
-    width: 1100px;
-    margin: auto;
-    position: relative;
+    padding: 0% 10%;
+    padding-top: 5%;
 }
 
-.main55{
-    background-color: hsl(0, 0%, 98%);
-    height: 300px;
+.main55 .icon_:hover{
+   background-color: black;
+    
 }
 
 
-.Main5{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-right: 350px;
+.Main5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0% 7%;
 }
 
-.Main5 ul{
+.Main5 li{
     list-style: none;
-    color: hsl(270, 9%, 17%);
+    gap: 2rem;
+}
 
+.div_line .line4 {
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    margin-top: 19px;
+    background-color: rgba(0, 0, 0, 0.106);
 }
 
 .Main5 .head_nav{
@@ -235,296 +244,52 @@ button{
     font-size: 13px;
 }
 
-.main55 .pattern{
-    position: absolute;
-    height: 190px;
-    width: 500px;
+
+/* Styling mobile nav */
+.Nav_bg {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
 }
 
-.main55 .hello :hover{
-    color: black;
+.Nav_bg .box{
+    border-style: solid;
+    border-color: black;
 }
 
-.div_line .line4 {
-    height: 1px;
-    width: 1100px;
-    margin: auto;
-    margin-top: 19px;
-    background-color: rgba(0, 0, 0, 0.106);
-}
-
-.header_2 .line{
-    height: 1px;
-    width: 110px;
-    margin-right: 450px;
-    margin-top: 19px;
-    background-color: rgba(0, 0, 0, 0.292);
-}
-
-.header_  .line{
-    height: 1px;
-    width: 90px;
-    margin-right: 450px;
-    margin-top: 19px;
-    background-color:hsl(0, 0%, 98%);
-}
-
-
-
-/* Iphones or normal phones 0px - 600px */
-@media only screen and (max-width: 600px) {
-    body{
-        align-items: center;
-    }
-
-
-.header_2   .Advantages_ {
-    font-size: 60px;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-}
-
-.About_us {
+.nav_bg_header{
     display: flex;
-    flex-direction: column;
-    width: 1200px;
-    height: 1200px;
-    overflow: hidden;
-    background-image:url(images/bg-pattern-how-we-work-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 400px 1100px;
-    margin-left: 150px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsl(270, 9%, 17%);
+    height: 500px;
+   
 }
 
-.About_us h1 {
-    font-size: 150px;
-    font-weight: 400;
-    width: 950px;
-    text-align: center;
-    margin-top: 150px;
+.nav_bg_header ul{
+    list-style: none;
+    font-family: 'Karla', sans-serif;
+    color: white;
 }
 
-.About_us button {
-    font-size: 50px;
-    margin-left: 0px;
-    margin-top: 750px;
-    border-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding: 30px;
-}
-
-.About_us img {
-    display: none;
-}
-
-.header_2 img{
-    width: 200px;
-    height: 200px;
-    margin-left: 300px;
-}
-
-.header_2 .ptag{
-    margin-left: 100px;
-    width: 1100px;
+.nav_bg_header li{
+    padding: 20px;
+    align-items: center;
     text-align: center;
 }
 
-.header_2 h3{
-    margin-left: 300px;
-
-}
-
-.header_2 h1 {
-    font-size: 100px;
-    text-align: center;
-    margin-left: 350px;
-}
-
-.Main5 {
-    flex-direction: column;
-    font-size: 60px;
-    margin-left: 500px;
-    text-align: center;
-    width: 500px;
-}
-
-.Main5 .head_nav {
-    font-size: 60px;
-}
-
-.logo22 {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    padding-right: 350px;
-    
-  
-}
-
-.img_logo img{
-    width: 300px;
-    height: 100px;
-}
-
-.icon_ img{
-    padding: 10px;
-    gap: 5rem;
-    width: 100px;
-    height: 100px;
+.nav_bg_header li:hover{
+   border-style: solid;
+   border-color: white;
 }
 
 
-.header_ .img__ {
-    display: none;
-}
 
-.div_line .line4 {
-    height: 5px;
-    width: 2000px;
-}
-
-.header_2 {
-    margin-left: 150px;
-    margin-top: 200px;
-}
-.main55 .pattern {
-   width: 1600px;
-   height: 550px;
-   margin-bottom: 500px;
-}
-
-.main55 {
-    width: 2000px;
-    height: 2400px;
-}
-
-.header_{
-        position: relative;
-        background-color: hsl(256, 26%, 20%);
-        display: flex;
-        flex-direction: column;
-        color: white;
-        width: 1700px; 
-        height: 1100px;
-        background-image: url(./images/bg-pattern-intro-left-mobile.svg);
+      /* navbar mobile design */
+      .nav_bg_header{
+        background-image: url(./images/bg-pattern-mobile-nav.svg);
         background-repeat: no-repeat;
-        background-size: 1000px 500px;
-    }
-
-.header_ .image22{
-        display: none;
-        position: absolute;
-
-        
-    }   
-
-.header_ h1 {
-        font-size: 150px;
-        width: 1000px;
-        font-weight: 400;
-        margin-left: 200px;
-        text-align: center;
-    }
-
-.header_ p {
-        font-size: 42px;
-        width: 750px;
-        margin-left: 300px;
-       text-align: center;
-    }
-
- .header_line button {
-        font-size: 60px;
-        margin-bottom: 70px;
-        margin-left: 450px;
-        margin-bottom: 200px;
-        padding: 10px 50px;
-    }
-
- .header_2 .line {
-        height: 5px;
-        width: 600px;
-        margin-left: 450px;
-        background-color: hsl(270, 9%, 17%);
-    }
-
- .header_  .line {
-        background-color: transparent;
-    }
-
- .header_  .img__2 {
-        display: none;
-    }
-
-.Nav_list img{
-      padding: 50px;
-      width: 200px;
-      height: 70px;
-    }
-
-.header_ .imagee__ {
-       display: none;
-    }
-
-.Nav_list .Nav_img2{
-        display: inline;
-        width: 100px;
-        height: 100px;
-        margin-left: 1100px;
-
-    } 
-
-.Nav_list .bx-menu{
-        font-size: 130px;
-        display: block;
-        margin-left: 1450px;
-        position: absolute;
-    }
-
-.Nav_list ul{
-        font-size: 30px;
-        display: block;
-        position: relative;
-        margin-left: 1100px;
-        
-       }
-
-    .Main_2 .Nav_img4{
-        height: 2100px;
-        width: 1700px;
-        background-image: url(./images/image-intro-mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      
+        background-position: center 120%;
+        background-size: contain;
       }
 
-} 
-
-/* Tablets and ipads min 601px max 820px */
-@media only screen and (min-width: 601px) and (max-width: 880px) {
-    .header_ {
-        background-color: hsl(256, 26%, 20%);
-        height: 500px;
-        width: 1500px;
-    }
-
-    .header_ .imagee__ {
-        width: 400px;
-        height: 510px;
-        position: absolute;
-        margin-left: 1105px;
-        overflow: hidden;
-        clip: rect(65px,600px,800px,0px);
-    }
-
-    .header_2 {
-        margin-left: 140px;
-    }
-
-    .About_us {
-       margin-left: 140px;
-    }
-}
